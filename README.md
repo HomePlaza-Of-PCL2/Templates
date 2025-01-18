@@ -1,2 +1,5 @@
-# templates
-Some useful templates for making your own PCL-Homepage
+# Homepage templates
+
+欢迎查看此仓库。这里将包含许多你在制作主页时可能会用到的模板，这些模板会以svg、psd、png、xaml等形式展现，你可随意下载并应用到自己的主页之中。
+
+此仓库的所有模板都遵循**MIT License**，每个作者都有权为自己制作的模板署名。若你是使用者，最好也请在自己作品中的某一处注明使用的模板作者与出处。
