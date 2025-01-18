@@ -1,0 +1,30 @@
+<local:MyCard Margin="0,0,0,15" Title="Minecraft 基岩版" CanSwap="False">
+     <StackPanel Margin="25,40,23,15">
+          <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+               <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Margin="0,0,10,5"
+                    Text="启动游戏" EventType="打开网页" EventData="minecraft://"
+                    ToolTip="如果你的电脑上安装了 Minecraft 基岩版，按下这个按钮将会启动它。" />
+          </StackPanel>
+     </StackPanel>
+</local:MyCard>
+<local:MyCard Margin="0,0,0,15" Title="非正常用途" CanSwap="False">
+     <StackPanel Margin="25,40,23,15">
+          <local:MyHint Margin="0,0,0,10" IsWarn="True" HorizontalAlignment="Left"
+               Text="官方将在 2025 年 3 月后正式停止支持所有 VR 设备。" />
+          <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+               <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Margin="0,0,10,10"
+                    Text="以VR模式启动原版" EventType="打开网页" EventData="minecraft://Mode/?OpenXR=true"
+                    ToolTip="如果你连接了一 VR 设备，按下这个按钮将会启动基岩版并开启 VR 模式。" />
+               <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Margin="10,0,0,10"
+                    Text="启动原版并打开商店" EventType="打开网页" EventData="minecraft://?showStoreHomeScreen=1"
+                    ToolTip="不知道为什么会出现这个玩意，但它的确是可用的。" />
+          </StackPanel>
+          <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+               <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Margin="0,0,0,10"
+                    Text="启动教育版" EventType="打开网页" EventData="minecraft://?edu=1"
+                    ToolTip="如果你的电脑上安装了 Minecraft 教育版，按下这个按钮将会启动它。否则，将启动 Minecraft 基岩版原版。" />
+          </StackPanel>
+     </StackPanel>
+</local:MyCard>
+<!-- 基岩版启动卡片 | 作者：MFn -->
+<!-- 出处：Homepage Plaza -->
